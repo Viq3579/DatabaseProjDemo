@@ -1,2 +1,8 @@
 # PowerPoint File
 *.pptx
+
+# SQL file
+*.sql
+
+# ZIP file
+*.zip

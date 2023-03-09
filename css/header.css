@@ -49,6 +49,26 @@ body {
     font-family: 'Lilita One', cursive;
     text-decoration: none;
 }
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.header-links {
+    color: #f7f2ef;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 10px;
+
+    transition: color 200ms;
+}
+.header-links:hover:not(.current-page) {
+    color: #ccac9e;
+}
+.current-page {
+    cursor: default;
+    color: #f7f2ef88;
+}
 .header-cta {
     display: flex;
     align-items: center;
